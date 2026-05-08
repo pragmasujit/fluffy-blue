@@ -1,0 +1,85 @@
+# =========================
+# Build outputs
+# =========================
+bin/
+obj/
+out/
+publish/
+
+# =========================
+# Rider files
+# =========================
+.idea/
+*.sln.iml
+
+# =========================
+# Visual Studio files
+# =========================
+.vs/ 
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Test results
+# =========================
+TestResults/
+*.trx
+
+# =========================
+# NuGet
+# =========================
+*.nupkg
+.nuget/
+packages/
+project.lock.json
+project.assets.json
+
+# =========================
+# Entity Framework
+# =========================
+Migrations/*Snapshot.cs
+
+# =========================
+# Secrets / config
+# =========================
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# =========================
+# Rider local history
+# =========================
+.idea/.idea.*.iml
+.idea/workspace.xml
+
+# =========================
+# Coverage reports
+# =========================
+coverage/
+*.coverage
+*.coveragexml
+
+# =========================
+# Docker (optional)
+# =========================
+docker-compose.override.yml
+
+# =========================
+# ReSharper / Rider caches
+# =========================
+_ReSharper*/
+*.DotSettings.user
